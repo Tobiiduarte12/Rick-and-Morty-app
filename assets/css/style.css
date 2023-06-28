@@ -81,3 +81,50 @@ h1 {
   text-align: end;
   font-weight: 600;
 }
+
+@media (max-width: 760px) {
+  main {
+    padding: 1rem;
+  }
+
+  .cardWrapper {
+    flex-direction: column;
+    height: auto;
+    width: 70%;
+    padding-bottom: 10px;
+  }
+
+  .imgContainer {
+    width: 100%;
+    height: 300px;
+  }
+
+  .imgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .infoContainer {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .info h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .info span {
+    width: 100%;
+    text-align: center;
+  }
+}
