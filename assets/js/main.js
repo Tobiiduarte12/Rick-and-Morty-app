@@ -22,6 +22,7 @@ const getPJ = async () => {
 const renderNewPJ = (character) => {
   const { id, image, name, species, origin, gender } = character;
   cardContainer.innerHTML = `
+        <h1>Pe jota aleatorio 🤪</h1>
         <div class="cardWrapper" id=${id}>
 			<div class="imgContainer">
 				<img src=${image} alt="" />
